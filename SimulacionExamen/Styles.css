@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(235, 229, 222);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+}
+.hoja{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+img{
+width: 100px;
+margin-top: 20px;
+margin-right: 45px;
+float: right;    
+}
+.espacio{
+  padding-top: 40px;
+}
+table,th{
+    padding-right: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin: 30px;
+    border-collapse: collapse;
+    border: 3px solid rgb(248, 156, 7, 0.845);
+    text-align: center;
+}
+td{
+    border-collapse: collapse;
+    border: 3px solid rgba(248, 156, 7, 0.845);
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #f0c890;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.coloAmarillo{
+    background-color: yellow;
+    border: 3px solid black;
+}
+.textoCentrado{
+    text-align: center;
+    
+    }
+.vacio{
+    padding-top: 50px;
+}
+.textoRojo{
+    padding-left: 30px;
+    margin-bottom: 0;
+    color: red;
+}
+.texto{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.textoSeparado{
+    padding-left: 50px;
+}
+.separacion{
+    padding-left: 30px;
+    color: rgb(59, 217, 59);
+
+}
+p{
+    text-align: justify;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding-right: 20px;
+}
+h3{
+    text-align: center;
+}
+mark{
+    color: yellow;
+    background-color: red;
+}

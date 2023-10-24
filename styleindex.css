@@ -1,21 +1,21 @@
 .body{
-    background-color: rgb(87, 255, 72);
+    background-color:#b3f4ec;
 }
 .cuadro{
     margin: 5px;
-    border-radius: 200px;
+
     padding: 10px;
     box-shadow: 5px 5px 5px rgb(128, 122, 122);
     margin-left: 500px;
     margin-right: 500px;
-    background-color: rgb(62, 243, 104);
+    background-color:#1ce5cb;
     text-align: center;
 }
 .input{
     margin: 5px;
     padding: 10px;
     box-shadow: 5px 5px 5px rgb(128, 122, 122);
-    background-color: blueviolet;
+    background-color: #8fffe9;
 
 }
 h1{

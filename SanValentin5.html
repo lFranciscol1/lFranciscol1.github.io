@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de amor</title>
+</head>
+
+<body>
+    <script>
+        // Verificar si hay un estado de reproducción almacenado
+        var audioStatus = localStorage.getItem('audioStatus');
+    
+        // Si no hay un estado almacenado o el estado es 'playing', reproducir el audio
+        if (!audioStatus || audioStatus === 'playing') {
+            var audio = new Audio('juniorh.mp3');
+            audio.play();
+        }
+    
+        // Manejar el evento de cambio de página para guardar el estado de reproducción
+        window.onbeforeunload = function() {
+            // Obtener el estado de reproducción actual del audio
+            var audio = document.getElementsByTagName('audio')[0];
+            var audioStatus = audio.paused ? 'paused' : 'playing';
+            
+            // Guardar el estado de reproducción en el almacenamiento local
+            localStorage.setItem('audioStatus', audioStatus);
+        };
+    </script>
+    
+
+<h1>Pa mi que no me ama, puro no le da <br>
+pero de aqui no saldra...</h1>
+    <h1>Quieres ser mi san valentin? 7u7</h1>
+    <img src="enojado.gif" alt="gato1" srcset="">
+    <div class="boton-container">
+        <button class="boton1" onclick="redireccionarno('SanValentinb.html')">Ya pongaa que si, o le hago un amarre</button>
+        <button class="boton2"  onclick="redireccionar('SanValentin6.html')">Clarooo que yess uwu</button>
+    </div>
+    
+    <audio autoplay loop>
+        <source src="" type="audio/mp3">
+        Tu navegador no soporta la reproducción de audio.
+    </audio>
+    
+
+    <script>
+        function redireccionar() {
+            window.location.href = "SanValentin6.html";
+        }
+        function redireccionarno() {
+            window.location.href = "SanValentinb.html";
+        }
+    </script>
+</body>
+</html>
